@@ -1,0 +1,29 @@
+
+JS engines -
+
+Chrome - V8
+firefox - SpiderMonkey
+opera - V8
+safari - JavaScriptCore
+IE - Chakra
+
+
+Rendering engines -
+Chrome - Blink(Webkit on iOS)
+Opera - Webkit
+Firefox - Gecko
+Opera - Presto
+
+
+
+
+
+Function invoking context according to the invocation pattern
+
+normal fun call -> window/global object
+
+as a method -> object owning the method
+
+as a constructor -> empty object
+
+via apply or call -> whatever we wish to pass
